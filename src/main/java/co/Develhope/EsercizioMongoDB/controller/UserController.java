@@ -27,7 +27,6 @@ public class UserController {
          try {
              if (id != null){
                  System.out.println("errore");
-                 throw new Exception(" id generato è sbagliato");
              }else
                  System.out.println("id andato a buon fine");
          }catch (Exception e){
